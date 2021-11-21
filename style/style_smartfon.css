@@ -1,0 +1,231 @@
+@font-face {
+    font-family: 'Nunito Sans';
+    src: url(font/NunitoSans-Regular.ttf);
+}
+@font-face{
+    font-family: 'Yeseva One';
+    src: url(font/YesevaOne-Regular.ttf);
+}
+@media (min-width: 10px)  and (max-width: 783px) {
+    .head{
+        width: 90%;
+        padding: 0 5% 0 5%;
+    }
+    .head nav{
+        display: none;
+    }
+    .head button{
+        display: none;
+    }
+    #tel {
+        margin: 0;
+    }
+    #img_wp{
+
+        background-size: auto 100%;
+    }
+    .wallpaper{
+        height: 476px;
+    }
+    #txt_wp{
+        left: auto;
+        right: auto;
+        width: 80%;
+        padding: 0 10% 0 10%;
+    }
+    #txt_wp h1{
+        font-size: 23px;
+        line-height: 132.83%;
+        width: auto;
+    }
+    #txt_wp p{
+        font-size: 14px;
+        line-height: 135.84%;
+        width: auto;
+    }
+    .button{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .button:hover{
+        width: 100%;
+    }
+    #plan_project{
+        height: 1000px;
+        width: 90%;
+        display: block;
+        text-align: center;
+        padding: 30px 18px 0 18px;
+    }
+    #plan_project h1 {
+        margin: 30px auto 0 auto;
+    }
+    #inf_company{
+        width: auto;
+    }
+    .options_flat{
+        position: relative;
+        top:320px;
+        grid-template-columns: repeat(2, auto)
+    }
+    .option{
+        text-align: start;
+        width: auto;
+    }
+    .button_town{
+        display: none;
+    }
+    #img_project{
+        position: relative;
+        bottom: 230px;
+        width: 90%;
+        height: auto;
+    }
+    .arrow_point{
+        display: none;
+    }
+    .onl_contr{
+        bottom: 250px;
+        background: #131313;
+    }
+    .pleer{
+        width: 90%;
+        height: 200px;
+        padding: 0 18px 0 18px;
+    }
+    .video{
+        background-size: 100% auto;
+        width: 100%;
+        height: 100%;
+    }
+    .shadow{
+        height: 100%;
+        width: 100%;
+    }
+    #circle{
+        bottom: 150px;
+    }
+    #txt_camer{
+        width: 90%;
+        padding: 0 5% 0 5%;
+        background: #131313;
+    }
+    #txt{
+        color: white;
+        width: 100%;
+        height: auto;
+    }
+    .inf_user{
+        display: block;
+    }
+    .inpt{
+        color: white;
+        width: 90%;
+    }
+    .inpt p{
+        color: rgba(255, 255, 255, 0.5);
+    }
+    .inpt input{
+        width: 100%;
+        background:transparent;
+    }
+    #txt_camer .section-3-form-2{
+        color: white;
+        position: relative;
+        bottom: 60px;
+    }
+    #sub{
+        position: relative;
+        top: 0px;
+        width: 90%;
+    }
+    .types_of_repair{
+        margin: 300px auto 0 auto;
+        height: auto;
+    }
+    .type{
+        display: block;
+        padding: 0 auto 0 auto;
+    }
+    .repair{
+      margin: 0 auto 50px auto;
+      width: 90%;
+    }
+    #img_repair1{
+        width: 90%;
+        background-size: 100% auto;
+    }
+    #img_repair2{
+        width: 90%;
+        background-size: 100% auto;
+    }
+    #img_repair3{
+        width: 90%;
+        background-size: 100% auto;
+    }
+    .reg_servs{
+        display: none;
+    }
+    #clients{
+        display: none;
+    }
+    #gallery_1{
+        display: none;
+    }
+    #gallery_2{
+        display: none;
+    }
+    #renovation_style{
+        display: none;
+    }
+    .gallery_renovation_style .shadow{
+        background: rgba(0, 0, 0, 0);
+    }
+    .gallery_renovation_style{
+        height: 500px;
+        margin: 0 5% 0 5%;
+        background-size: 90% auto;
+    }
+    #question{
+        padding: 34px 5% 34px 5%;
+        width: 90%;
+        height: 500px;
+    }
+    #name_phone{
+        display: block;
+    }
+    #question .in_reg input{
+        width: 100%;
+    }
+    .quest .section-3-form-2{
+        margin: 50px auto 0 0;
+    }
+    .quest .button{
+        width: 75%;
+        margin: 50px 0 0 0;
+    }
+    #address_social_networks{
+        display: none;
+    }
+    #map{
+        width: 90%;
+        padding: 0 5% 0 5%;
+    }
+    .map_contacts{
+        height: auto;
+    }
+    .map_contacts .shadow{
+        height: auto;
+    }
+    #map img{
+        width: 100%;
+        height: auto;
+    }
+    #bckg{
+        height: 700px;
+        background: #181818;
+    }
+    .foot{
+        display: none;
+    }
+}
